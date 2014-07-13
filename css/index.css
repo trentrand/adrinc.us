@@ -1,0 +1,384 @@
+body {
+  background-color: rgb(123, 128, 138);
+  font: normal 1.375em/1.38 Quicksand-Regular;
+  color: rgb(230, 230, 230);
+}
+
+.about {
+  display: block;
+  float: left;
+  width: 22.4215246636%;
+  height: 27px;
+  margin-top: 9px;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font: 400 0.818em/1.38 'Noto Sans';
+  text-align: center;
+  color: rgb(204, 204, 204);
+}
+
+.aboutanchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 10px;
+  margin: 0 auto;
+}
+
+.aboutcontainer {
+  position: relative;
+  float: left;
+  z-index: 5;
+  width: 100%;
+  height: 543px;
+  margin-top: 100px;
+  background-image: -webkit-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.63) 100%), url('../images/Office-Image-for-County-ins-Website.jpg');
+  background-image:    -moz-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.63) 100%), url('../images/Office-Image-for-County-ins-Website.jpg');
+  background-image:      -o-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.63) 100%), url('../images/Office-Image-for-County-ins-Website.jpg');
+  background-image:     -ms-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.63) 100%), url('../images/Office-Image-for-County-ins-Website.jpg');
+  background-image:         linear-gradient(450deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.63) 100%), url('../images/Office-Image-for-County-ins-Website.jpg');
+  background-repeat: repeat, no-repeat;
+  background-size: 100% 100%, cover;
+  background-position: 0% 0%, center bottom;
+  background-attachment: scroll, scroll;
+  box-shadow: 0 5px 5px 2px rgb(123, 128, 138) inset;
+  -webkit-filter: grap;
+  -moz-filter: grap;
+  -o-filter: grap;
+  -ms-filter: grap;
+  filter: grap;
+}
+
+.aboutdescription1 {
+  float: left;
+  clear: both;
+  width: 49.25%;
+  min-height: 30px;
+  margin: 10px 0 0 43.83203%;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(230, 230, 230);
+}
+
+.aboutdescription2 {
+  float: left;
+  clear: both;
+  width: 49.25%;
+  min-height: 30px;
+  margin: 10px 0 0 44.08203%;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(230, 230, 230);
+}
+
+.abouttitle {
+  float: left;
+  width: 49.25%;
+  min-height: 30px;
+  margin: 95px 0 0 43.83203%;
+  font-size: 1.636em;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.contact {
+  display: block;
+  float: left;
+  width: 22.4215246636%;
+  height: 27px;
+  margin: 10px 0 0 2.68708%;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font: 400 0.818em/1.38 'Noto Sans';
+  text-align: center;
+  color: rgb(204, 204, 204);
+}
+
+.contactanchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 10px;
+  margin: 0 auto;
+}
+
+.contactcontainer {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 9;
+  width: 100%;
+  height: 506px;
+  background-image: -webkit-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/contact_us.jpg');
+  background-image:    -moz-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/contact_us.jpg');
+  background-image:      -o-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/contact_us.jpg');
+  background-image:     -ms-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/contact_us.jpg');
+  background-image:         linear-gradient(450deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/contact_us.jpg');
+  background-repeat: repeat, no-repeat;
+  background-size: 100% 100%, cover;
+  background-position: 0% 0%, center center;
+  background-attachment: scroll, scroll;
+}
+
+.contactdescription1 {
+  float: left;
+  min-height: 30px;
+  line-height: 1.38;
+  color: rgb(230, 230, 230);
+}
+
+.contactdescription2 {
+  position: relative;
+  float: left;
+  width: 25.25%;
+  margin-left: 0.94922%;
+  font-size: 1em;
+  line-height: 1.18;
+  color: rgb(230, 230, 230);
+}
+
+.contacttitle {
+  float: left;
+  width: 49.25%;
+  min-height: 30px;
+  margin: 69px 0 0 43.84896%;
+  font-size: 1.636em;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.founderdescription1 {
+  float: left;
+  clear: both;
+  width: 49.25%;
+  min-height: 30px;
+  margin: 6px 0 0 43.84896%;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(230, 230, 230);
+}
+
+.founders {
+  display: block;
+  float: left;
+  width: 22.4215246636%;
+  height: 27px;
+  margin: 9px 0 0 3.81166%;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font: 400 0.818em/1.38 'Noto Sans';
+  text-align: center;
+  color: rgb(204, 204, 204);
+}
+
+.foundersanchor {
+  width: 100%;
+}
+
+.founderscontainer {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 17;
+  width: 100%;
+  height: 506px;
+  background-image: -webkit-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/business-resolutions.jpg');
+  background-image:    -moz-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/business-resolutions.jpg');
+  background-image:      -o-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/business-resolutions.jpg');
+  background-image:     -ms-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/business-resolutions.jpg');
+  background-image:         linear-gradient(450deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/business-resolutions.jpg');
+  background-repeat: repeat, no-repeat;
+  background-size: 100% 100%, cover;
+  background-position: 0% 0%, center top;
+  background-attachment: scroll, scroll;
+}
+
+.founderstitle {
+  float: left;
+  width: 49.25%;
+  min-height: 30px;
+  margin: 115px 0 0 43.84896%;
+  font-size: 1.636em;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.headerbuttons {
+  position: relative;
+  float: left;
+  width: 37.1666666666%;
+  height: 37px;
+  margin: 36px 0 0 21%;
+  background-color: rgba(128, 128, 128, 0);
+}
+
+.headercompanyname {
+  float: left;
+  width: 13.25%;
+  height: 50px;
+  margin-top: 36px;
+  font-size: 1.727em;
+  line-height: 1;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.headercontainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 13;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #7b808a;
+  overflow: visible;
+}
+
+.headerlogo {
+  float: left;
+  width: 3.4166666666%;
+  height: 38px;
+  margin: 36px 0 0 4.66667%;
+  background: url('../images/logo.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.portfolio {
+  display: block;
+  float: left;
+  width: 22.4215246636%;
+  height: 27px;
+  margin: 10px 0 0 3.81166%;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font: 400 0.818em/1.38 'Noto Sans';
+  text-align: center;
+  color: rgb(204, 204, 204);
+}
+
+.portfolioanchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 100%;
+  height: 10px;
+  margin: 0 auto;
+}
+
+.portfoliocontainer {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 12;
+  width: 100%;
+  height: 506px;
+  background-image: -webkit-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/man-with-briefcase.jpg');
+  background-image:    -moz-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/man-with-briefcase.jpg');
+  background-image:      -o-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/man-with-briefcase.jpg');
+  background-image:     -ms-linear-gradient(0deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/man-with-briefcase.jpg');
+  background-image:         linear-gradient(450deg, rgba(102, 102, 102, 0.66) 0%, rgba(102, 102, 102, 0.66) 100%), url('../images/man-with-briefcase.jpg');
+  background-repeat: repeat, no-repeat;
+  background-size: 100% 100%, cover;
+  background-position: 0% 0%, center bottom;
+  background-attachment: scroll, scroll;
+}
+
+.portfoliotitle {
+  float: left;
+  width: 49.25%;
+  min-height: 30px;
+  margin: 102px 0 0 43.84896%;
+  font-size: 1.636em;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.contactdescription1-1 {
+  clear: both;
+  width: 49.25%;
+  margin: 6px 0 0 43.84896%;
+  font-size: 1em;
+}
+
+.contactdescription1-2 {
+  position: relative;
+  clear: both;
+  z-index: 4;
+  width: 1.9166666666%;
+  margin: 15px 0 0 43.83203%;
+  font-family: FontAwesome;
+  font-size: 1em;
+}
+
+.contactdescription1-3 {
+  position: relative;
+  z-index: 5;
+  width: 49.25%;
+  margin: 15px 0 0 0.94922%;
+  font-size: 1em;
+}
+
+.contactdescription1-4 {
+  position: relative;
+  clear: both;
+  z-index: 8;
+  width: 1.9166666666%;
+  margin: 15px 0 0 43.83203%;
+  font-size: 1.091em;
+}
+
+.contactdescription1-5 {
+  position: relative;
+  clear: both;
+  z-index: 6;
+  width: 1.9166666666%;
+  margin: 15px 0 0 43.83203%;
+  font-family: FontAwesome;
+  font-size: 0.864em;
+}
+
+.contactdescription2-1 {
+  z-index: 7;
+  height: 30px;
+  margin-top: 18px;
+}
+
+.contactdescription2-2 {
+  z-index: 3;
+  height: 52px;
+  margin-top: 15px;
+}
+
+.foundersanchor-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 14;
+  height: 10px;
+  margin: 0 auto;
+}
+
+.foundersanchor-2 {
+  display: block;
+  float: left;
+  clear: both;
+  height: 9px;
+  margin-top: 276px;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font: 400 0.727em/1.38 Quicksand;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}

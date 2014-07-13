@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(255, 165, 64);
+  font: normal 1em/1.38 HelveticaNeue-Thin;
+  color: rgb(255, 219, 179);
+}
+
+.headerbio {
+  position: absolute;
+  top: 311px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 1096px;
+  margin: 0 auto;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 219, 179);
+}
+
+.headercontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  width: 91.3333333333%;
+  height: 491px;
+  margin: 0 auto;
+}
+
+.headername {
+  position: absolute;
+  top: 212px;
+  left: 0;
+  right: 0;
+  width: 1096px;
+  margin: 0 auto;
+  font: 5.5em/1.38 HelveticaNeue-UltraLight;
+  text-align: center;
+  color: rgb(255, 241, 225);
+}
+
+._button {
+  display: block;
+  width: 12.8649635036%;
+  height: 131px;
+  margin: 339px auto 0;
+  border-radius: 3px;
+  font: 5.938em/1.38 FontAwesome;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
